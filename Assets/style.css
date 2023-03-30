@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: url("../Images/Portfolio7.jpg");
+    color: rgb(203, 152, 169);
+}
+
+.divContainer {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 70%;
+    padding: 20px 0px 0px 0px;
+    color: rgb(203, 152, 169);
+    width: 100vw;
+    font-family: 'Lexend', sans-serif;
+}
+
+.header__logo-container {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #161c19b4;
+    transition: color .3s;
+    width: auto;
+    height: auto;
+    font-size: x-large;
+}
+
+.header__logo-container:hover {
+    color: rgb(203, 152, 169);
+}
+
+.header__logo-img-cont {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 80%;
+    overflow: hidden;
+    margin-right: 2.5rem;
+    background: rgb(203, 152, 169);
+}
+
+.divContainer span {
+    margin-left: 10px;
+}
+
+
+body {
+    font-family: 'Lexend', sans-serif;
+    font-size: larger
+}
+
+.bg {
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 0px 100px 0px;
+
+}
+
+.linkContainer li a {
+    color: rgb(203, 152, 169);
+    text-decoration: none;
+}
+
+.linkContainer li a:hover {
+    background-color: beige;
+    color: rgb(210, 212, 192);
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.header__logo-sub {
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.header__logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+h1 {
+    text-align: right;
+    margin-right: 80px;
+    padding: 0px 0px 0px 40px;
+
+}
+
+#About,
+#Work,
+#Contact {
+    display: flex;
+    padding: 20px;
+    width: 90%;
+    text-align: justify;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Lexend', sans-serif;
+}
+
+a#pro1 {
+    display: block;
+    background-image: url('../Images/social-media-marketing.jpg');
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 300px;
+    z-index: 0;
+
+}
+
+a#pro2 {
+    display: block;
+    background-image: url('../Images/Portfolio4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+
+}
+
+a#pro3 {
+    display: block;
+    background-image: url('../Images/Portfolio6.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+
+}
+
+a#pro1,
+a#pro2,
+a#pro3 {
+    font-family: 'Lexend', sans-serif;
+}
+
+.smallImg,
+.smallImg2,
+.largeImg {
+
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 100%;
+    position: relative;
+
+}
+
+
+.Border {
+    border: 3px solid rgb(203, 152, 169);
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    background-color: rgb(203, 152, 169);
+    align-self: flex-end;
+    padding: 20px;
+    z-index: 1;
+    font-size: large;
+
+}
+
+.smTitle {
+    position: absolute;
+    background-color: rgb(203, 152, 169);
+    margin-top: 140px;
+    padding: 20px;
+    z-index: 1;
+    font-size: medium;
+}
+
+a#pro1:hover,
+a#pro2:hover,
+a#pro3:hover {
+    opacity: 0.5;
+}
+
+.contactContainer {
+    width: 100%;
+}
+
+.contactInfo {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+
+.contactInfo li a {
+    text-decoration: none;
+    color: rgb(203, 152, 169);
+
+}
+
+.contactInfo li a:hover {
+    text-decoration: none;
+    color: rgb(210, 212, 192);
+    background-color: beige;
+}
+
+footer h3 {
+    text-align: center;
+    flex-shrink: 0;
+    padding: 20px;
+    background-color: rgb(219, 112, 184);
+    color: rgb(213, 116, 158);
+}
+
+
+/*Media Queries*/
+@media only screen and (max-width: 56.25em) {
+    .header__logo-img-cont {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 1.2rem;
+    }
+}
+
+.header__logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.header__logo-sub {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.linkContainer {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 70%;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .header__content {
+        padding: 0 2rem;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    .header__logo-img-cont {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    .header__link {
+        padding: 3rem 1.8rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .navContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .linkContainer {
+        display: flex;
+        width: 100%;
+    }
+
+    #About,
+    #Work,
+    #Contact {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    #About h1,
+    #Work h1,
+    #Contact h1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+
+
+    .smallImg,
+    .smallImg2 {
+        flex-direction: column;
+    }
+
+    .contactInfo {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .contactInfo li {
+        align-self: center;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .navContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .linkContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
