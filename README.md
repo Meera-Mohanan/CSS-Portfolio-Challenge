@@ -1,5 +1,5 @@
 # CSS-Portfolio
-This is a Advanced CSS: Portfolio challenge for which I used CSS and HTML to create a basic web page to showcase my projects created during the bootcamp. I used CSS flexbox to create a dynamic web page that will show case my portfolio on various screen sizes. 
+I have used advanced CSS and HTML to create a basic Portfolio page to showcase my projects created during the bootcamp. I used CSS flexbox to create a dynamic web page that will show case my portfolio on various screen sizes. 
 
 Github Pages: https://github.com/Meera-Mohanan
 
@@ -16,9 +16,5 @@ the developer's name, a recent photo and links to sections about them, their wor
 *Used Media Query to get a responsive layout that adapts to my viewport
 
 Webpage Screenshot
-<<<<<<< HEAD
-=======
-
-![Screenshot 2023-03-30 160932](https://user-images.githubusercontent.com/126405858/228772426-20c04bd9-d784-4b2b-90b3-fe15ee562a4d.png)
-![Screenshot 2023-03-30 160943](https://user-images.githubusercontent.com/126405858/228772467-ea7b43d9-9d1d-45ed-8822-cdd06aad3c8e.png)
->>>>>>> 88639c8ccbbeb10bc94bc9d20d741aaffda8bd45
+![Screenshot 2023-03-30 174006](https://user-images.githubusercontent.com/126405858/228796642-5014e7e8-72c2-4ca7-9b79-90eb25de500d.png)
+![Screenshot 2023-03-30 174014](https://user-images.githubusercontent.com/126405858/228796672-67b6ffa1-21ae-4900-b5f4-31b3ff2d1713.png)
