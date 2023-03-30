@@ -1,9 +1,9 @@
-# CSS-Portfolio
+CSS-Portfolio Challenge Submission
+
 I have used advanced CSS and HTML to create a basic Portfolio page to showcase my projects created during the bootcamp. I used CSS flexbox to create a dynamic web page that will show case my portfolio on various screen sizes. 
 
 Github Pages: https://github.com/Meera-Mohanan
-
-Github Repo: https://github.com/Meera-Mohanan/CSS-Portfolio
+Github Repo: https://github.com/Meera-Mohanan/CSS-Portfolio-Challenge
 
 Portfolio Highlights:
 
