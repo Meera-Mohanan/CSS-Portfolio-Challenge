@@ -1,94 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Portofolio</title>
+    <meta name="description" content="MyPortfolio" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meera Mohanan Portfolio</title>
-    <link rel='stylesheet' href="Assets/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="/Assets/style.css" />
 
-<body>
-    <!--Header-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="header__content">
-            <div class="header__logo-container">
-                <div class="header__logo-img-cont">
-                    <img src="./Images/20230105_190433.jpg" alt="MeeraMohanan" class="header__logo-img" />
-                </div>
-            </div>
-            <span class="header__logo-sub">Meera Mohanan</span>
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="/Assets/Images/20221219_194934.jpg"
+              alt="Meera Varun Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Meera Mohanan</span>
         </div>
-        <div class='divContainer'>
-            <ul class='linkContainer'>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Work">Work</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
-    <main class='mainContainer'>
-        <div class="bg"></div>
-        <div id="About">
-            <h1>About Me</h1>
-            <p> My name is Meera Mohanan and I am a student of UWA Full Stack Web Development BootCamp.Lorem, ipsum
-                dolor sit amet consectetur adipisicing elit. Incidunt error neque voluptate facere voluptas amet atque
-                veritatis nesciunt eos omnis ratione, perferendis corporis reiciendis qui animi commodi sit facilis
-                alias temporibus assumenda libero nostrum. Ducimus quod vero quidem. Corrupti quo neque mollitia commodi
-                expedita sequi aspernatur accusantium omnis animi magni pariatur atque quaerat impedit quam dolore eius
-                necessitatibus harum excepturi possimus, cupiditate explicabo fugit, nihil tenetur voluptatum. Ipsum
-                earum id rerum vel nihil, dolore quibusdam iste neque possimus ex et saepe natus aut aspernatur
-                molestiae. Architecto praesentium perferendis eveniet maiores rerum illum a magni quasi non, repellat,
-                ad esse aperiam.</p>
-
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is Meera</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            My name is Meera Mohanan and I am a student of UWA Full Stack Web Development. I am very excited in pursuing my dream to become a developer and in few months time I will be able to finish my course as first step in achieving my dream.
+          </p>
         </div>
-        <!--Portfolio Images and Navigation-->
-        <div class="bg"></div>
-
-        <div id="Work">
-            <h1>Work</h1>
-
-            <div class="portfolio">
-                <div class="largeImg Border">
-                    <div class='title'>Horiseon</div><a href='https://meera-mohanan.github.io/Assignment-Code-Refactor/'
-                        target='_blank' rel='noreferrer noopener' id="pro1"></a>
-                </div>
-                <div class="smallImg">
-                    <div class="Border">
-                        <div class='smTitle'>SampleProject2</div><a
-                            href='https://meera-mohanan.github.io/Assignment-Code-Refactor/' target='_blank'
-                            rel='noreferrer noopener' id='pro2'></a>
-                    </div>
-                    <div class="Border">
-                        <div class='smTitle'>SampleProject3</div><a
-                            href='https://meera-mohanan.github.io/Assignment-Code-Refactor/' target='_blank'
-                            rel='noreferrer noopener' id="pro3"></a>
-                    </div>
-                </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+           <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="/Assets/Images/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+              />
+          </a>
+        </div>
+       </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            My name is Meera Mohanan and I am a student of UWA Full Stack Web Development. I am very excited in pursuing my dream to become a developer and in few months time I will be able to finish my course as first step in achieving my dream.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! It's
+                <strong>Meera Mohanan</strong>
+                and I'm currently enrolled in <strong> UWA Full Stack Web Development BootCamp </strong> located in
+                Perth. I've completed 2 projects in this BootCamp with talented people which helped me to fine tune my skills and to use what I have learned till now into practice.
+                </p>
+              <p class="about__content-details-para">
+                Feel free to
+                <strong>contact</strong> me here.
+              </p>
             </div>
-
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">Node.js</div>
+              <div class="skills__skill">MySQL</div>
+              <div class="skills__skill">Insomnia</div>
+              <div class="skills__skill">Express.js</div>
+              <div class="skills__skill">Axios</div>
+              <div class="skills__skill">Visual Studio</div>
+            </div>
+          </div>
         </div>
-        <div class="bg"></div>
-        <div id="Contact">
-            <h1>Contact</h1>
-            <div class='contactContainer'>
-                <ul class='contactInfo'>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Completed Projects
+          </span>
+          </h2>              
+          <span class="heading-sec__sub">
+          <div class="projects__row-content">
+        <h3 class="projects__row-content-title">Project 1 - Currency Converter</h3>
+              <p class="projects__row-content-desc">
+          The Currency Converter is a useful tool for anyone who needs to deal with multiple currencies, whether for personal or business purposes. With its dynamic HTML and CSS, the application fetches real-time currency rate from a reliable third-party API. By using this application, you can quickly and easily convert between currencies and get accurate and up-to-date exchange rate information.
+        </p>
+        <a
+                href="https://anju0806.github.io/currency-convertor-project/"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Click here</a
+              >
+             </div>
+            </div>
+            <span class="heading-sec__sub">
+          <div class="projects__row">
+             <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 2 - Booktique</h3>
+              <p class="projects__row-content-desc">
+                The Booktique App is an online platform designed for book enthusiasts to discover, review, and discuss about the books. It provides user-friendly interface that allows users to create, edit and delete their reviews about books and  personal profile details, search for varieties of books, and share their thoughts through detailed reviews and ratings.
+              </p>
+              <a
+                href="https://booktique-3b89fd189961.herokuapp.com/login"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Click here</a
+              >
+            </div>
+            </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+               <ul class='contactInfo'>
                     <li><a href='https://github.com/Meera-Mohanan' target='_blank' rel='noreferrer noopener'>Github</a>
                     </li>
                     <li><a href='https://www.google.com' target='_blank' rel='noreferrer noopener'>Email</a></li>
-
                 </ul>
             </div>
-        </div>
-        <div class="bg"></div>
-        </div>
-        <footer>
-            <h3>
-                Thank you for visiting my Portfolio!
-            </h3>
-        </footer>
-</body>
-
-</html>
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec__mb-med">
+                  <span class="heading-sec__main heading-sec__main--lt">Thank you for visiting!</span>
+                    </div>
+    
